@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Roboto-Light";
+    src: url('../fonts/Roboto-Light.eot');
+    src: url('../fonts/Roboto-Light.woff') format("woff");
+    src: url('../fonts/Roboto-Light.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main {
+    background-color: #434753;
+    color: #fff;
+    font-family: Roboto-Light, sans-serif;
+    font-size: 16px;
+}
+
+.row-tab {
+    padding: 50px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tab {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-block {
+    width: 100vw;
+}

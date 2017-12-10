@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "RalewayMedium";
+    src: url("../fonts/RalewayMedium.eot");
+    src: url("../fonts/RalewayMedium.woff") format("woff");
+    src: url("../fonts/RalewayMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.card {
+    background-color: #e1e6f4;
+    color: #333;
+    margin: 20px 50px;
+    border-radius: 2px;
+    padding: 20px 30px;
+}
+
+
+.poster {
+    width: 180px;
+    height: 240px;
+}
+
+.title-movie {
+    padding-top: 50px;
+    font-family: RalewayMedium, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.row-filter {
+    background-color: #7a7e8a;
+    padding: 30px 100px;
+    border-top: 1px solid #e1e6f4;
+    border-bottom: 1px solid #e1e6f4;
+}
+
+.filter {
+    height: 40px;
+    width: 150px;
+    border: 1px solid #f2f2f2;;
+    border-radius: 2px;
+    background-color: #7a7e8a;
+    color: #f2f2f2;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.row-search {
+    margin-top: 35px;
+}
+
+.search {
+    height: 40px;
+    width: 400px;
+    padding-left: 15px;
+    outline: none;
+    font-size: 14px;
+    border: 2px solid #e1e6f4;
+    border-radius: 2px;
+}
